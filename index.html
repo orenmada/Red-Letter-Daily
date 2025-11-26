@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Red Letter Daily - A serene web application displaying the sayings of Jesus with theological reflections." />
     <title>Red Letter Daily</title>
+    <script>
+      // Polyfill process and global for browser environment
+      window.process = window.process || { env: { NODE_ENV: 'development' } };
+      window.global = window;
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script>
@@ -22,6 +28,20 @@
                 stone: '#E6E2DD',
                 charcoal: '#2C2C2C',
               }
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              fadeInOverlay: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              }
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.3s ease-out forwards',
+              'fade-in-overlay': 'fadeInOverlay 0.2s ease-out forwards',
             }
           }
         }
@@ -32,19 +52,44 @@
         background-color: #FDFBF7;
         color: #2C2C2C;
       }
+      /* Ensure fonts don't block rendering */
+      @font-face {
+        font-family: 'Crimson Text';
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Inter';
+        font-display: swap;
+      }
     </style>
   <script type="importmap">
 {
   "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/jsx-runtime": "https://aistudiocdn.com/react@^19.2.0/jsx-runtime",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
   }
 }
+</script>
+<script>
+  window.onerror = function(message, source, lineno, colno, error) {
+    console.error("Global error:", message, "at", source, ":", lineno, ":", colno);
+    const root = document.getElementById('root');
+    if (root && !root.innerHTML) {
+      root.innerHTML = '<div style="color:red; padding:20px; text-align:center; font-family:sans-serif;">' +
+        '<h2>Application Error</h2>' + 
+        '<p>' + message + '</p>' +
+        '</div>';
+    }
+  };
 </script>
 </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>

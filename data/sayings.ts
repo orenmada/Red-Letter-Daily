@@ -1,6 +1,7 @@
 import { Saying } from '../types';
 
 export const JESUS_SAYINGS: Saying[] = [
+  // --- MATTHEW ---
   {
     id: 1,
     text: "Man shall not live on bread alone, but on every word that comes from the mouth of God.",
@@ -434,5 +435,375 @@ export const JESUS_SAYINGS: Saying[] = [
     text_es: "Es más fácil pasar un camello por el ojo de una aguja, que entrar un rico en el reino de Dios.",
     reference: "Matthew 19:24",
     context: "The Rich and the Kingdom of God"
+  },
+
+  // --- MARK ---
+  {
+    id: 63,
+    text: "The Sabbath was made for man, not man for the Sabbath.",
+    text_es: "El día de reposo fue hecho por causa del hombre, y no el hombre por causa del día de reposo.",
+    reference: "Mark 2:27",
+    context: "Lord of the Sabbath"
+  },
+  {
+    id: 64,
+    text: "Quiet! Be still!",
+    text_es: "¡Calla, enmudece!",
+    reference: "Mark 4:39",
+    context: "Jesus Calms the Storm"
+  },
+  {
+    id: 65,
+    text: "Don’t be afraid; just believe.",
+    text_es: "No temas, cree solamente.",
+    reference: "Mark 5:36",
+    context: "Healing of Jairus' Daughter"
+  },
+  {
+    id: 66,
+    text: "Nothing outside a person can defile them by going into them. Rather, it is what comes out of a person that defiles them.",
+    text_es: "Nada hay fuera del hombre que entre en él, que le pueda contaminar; pero lo que sale de él, eso es lo que contamina al hombre.",
+    reference: "Mark 7:15",
+    context: "That Which Defiles"
+  },
+  {
+    id: 67,
+    text: "For whoever wants to save their life will lose it, but whoever loses their life for me and for the gospel will save it.",
+    text_es: "Porque todo el que quiera salvar su vida, la perderá; y todo el que pierda su vida por causa de mí y del evangelio, la salvará.",
+    reference: "Mark 8:35",
+    context: "The Way of the Cross"
+  },
+  {
+    id: 68,
+    text: "Everything is possible for one who believes.",
+    text_es: "Si puedes creer, al que cree todo le es posible.",
+    reference: "Mark 9:23",
+    context: "Healing a Boy Possessed by an Impure Spirit"
+  },
+  {
+    id: 69,
+    text: "Salt is good, but if it loses its saltiness, how can you make it salty again? Have salt among yourselves, and be at peace with each other.",
+    text_es: "Buena es la sal; mas si la sal se hace insípida, ¿con qué la sazonaréis? Tened sal en vosotros mismos; y tened paz los unos con los otros.",
+    reference: "Mark 9:50",
+    context: "Causing to Stumble"
+  },
+  {
+    id: 70,
+    text: "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many.",
+    text_es: "Porque el Hijo del Hombre no vino para ser servido, sino para servir, y para dar su vida en rescate por muchos.",
+    reference: "Mark 10:45",
+    context: "The Request of James and John"
+  },
+  {
+    id: 71,
+    text: "Is it not written: ‘My house will be called a house of prayer for all nations’? But you have made it ‘a den of robbers.’",
+    text_es: "¿No está escrito: Mi casa será llamada casa de oración para todas las naciones? Mas vosotros la habéis hecho cueva de ladrones.",
+    reference: "Mark 11:17",
+    context: "Jesus Clears the Temple"
+  },
+  {
+    id: 72,
+    text: "Love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.",
+    text_es: "Amarás al Señor tu Dios con todo tu corazón, y con toda tu alma, y con toda tu mente, y con todas tus fuerzas.",
+    reference: "Mark 12:30",
+    context: "The Greatest Commandment"
+  },
+  {
+    id: 73,
+    text: "Watch and pray so that you will not fall into temptation. The spirit is willing, but the flesh is weak.",
+    text_es: "Velad y orad, para que no entréis en tentación; el espíritu a la verdad está dispuesto, pero la carne es débil.",
+    reference: "Mark 14:38",
+    context: "Gethsemane"
+  },
+  {
+    id: 74,
+    text: "Go into all the world and preach the gospel to all creation.",
+    text_es: "Id por todo el mundo y predicad el evangelio a toda criatura.",
+    reference: "Mark 16:15",
+    context: "The Great Commission"
+  },
+
+  // --- LUKE ---
+  {
+    id: 75,
+    text: "Why were you searching for me? Didn’t you know I had to be in my Father’s house?",
+    text_es: "¿Por qué me buscabais? ¿No sabíais que en los negocios de mi Padre me es necesario estar?",
+    reference: "Luke 2:49",
+    context: "The Boy Jesus at the Temple"
+  },
+  {
+    id: 76,
+    text: "The Spirit of the Lord is on me, because he has anointed me to proclaim good news to the poor.",
+    text_es: "El Espíritu del Señor está sobre mí, Por cuanto me ha ungido para dar buenas nuevas a los pobres.",
+    reference: "Luke 4:18",
+    context: "Jesus Rejected at Nazareth"
+  },
+  {
+    id: 77,
+    text: "Give, and it will be given to you. A good measure, pressed down, shaken together and running over, will be poured into your lap.",
+    text_es: "Dad, y se os dará; medida buena, apretada, remecida y rebosando darán en vuestro regazo.",
+    reference: "Luke 6:38",
+    context: "Judging Others"
+  },
+  {
+    id: 78,
+    text: "Your faith has saved you; go in peace.",
+    text_es: "Tu fe te ha salvado, vé en paz.",
+    reference: "Luke 7:50",
+    context: "Jesus Anointed by a Sinful Woman"
+  },
+  {
+    id: 79,
+    text: "Go and do likewise.",
+    text_es: "Vé, y haz tú lo mismo.",
+    reference: "Luke 10:37",
+    context: "The Parable of the Good Samaritan"
+  },
+  {
+    id: 80,
+    text: "Martha, Martha, you are worried and upset about many things, but few things are needed—or indeed only one.",
+    text_es: "Marta, Marta, afanada y turbada estás con muchas cosas. Pero sólo una cosa es necesaria.",
+    reference: "Luke 10:41-42",
+    context: "At the Home of Martha and Mary"
+  },
+  {
+    id: 81,
+    text: "Blessed rather are those who hear the word of God and obey it.",
+    text_es: "Antes bienaventurados los que oyen la palabra de Dios, y la guardan.",
+    reference: "Luke 11:28",
+    context: "True Blessedness"
+  },
+  {
+    id: 82,
+    text: "Watch out! Be on your guard against all kinds of greed; life does not consist in an abundance of possessions.",
+    text_es: "Mirad, y guardaos de toda avaricia; porque la vida del hombre no consiste en la abundancia de los bienes que posee.",
+    reference: "Luke 12:15",
+    context: "The Parable of the Rich Fool"
+  },
+  {
+    id: 83,
+    text: "Consider the ravens: They do not sow or reap, they have no storeroom or barn; yet God feeds them. And how much more valuable you are than birds!",
+    text_es: "Considerad los cuervos, que ni siembran, ni siegan; que ni tienen despensa, ni granero, y Dios los alimenta. ¿No valéis vosotros mucho más que las aves?",
+    reference: "Luke 12:24",
+    context: "Do Not Worry"
+  },
+  {
+    id: 84,
+    text: "From everyone who has been given much, much will be demanded; and from the one who has been entrusted with much, much more will be asked.",
+    text_es: "Porque a todo aquel a quien se haya dado mucho, mucho se le demandará; y al que mucho se le haya confiado, más se le pedirá.",
+    reference: "Luke 12:48",
+    context: "Watchfulness"
+  },
+  {
+    id: 85,
+    text: "Make every effort to enter through the narrow door, because many, I tell you, will try to enter and will not be able to.",
+    text_es: "Esforzaos a entrar por la puerta angosta; porque os digo que muchos procurarán entrar, y no podrán.",
+    reference: "Luke 13:24",
+    context: "The Narrow Door"
+  },
+  {
+    id: 86,
+    text: "For all those who exalt themselves will be humbled, and those who humble themselves will be exalted.",
+    text_es: "Porque cualquiera que se enaltece, será humillado; y el que se humilla, será enaltecido.",
+    reference: "Luke 14:11",
+    context: "Parable of the Great Banquet"
+  },
+  {
+    id: 87,
+    text: "This son of mine was dead and is alive again; he was lost and is found.",
+    text_es: "Este mi hijo muerto era, y ha revivido; se había perdido, y es hallado.",
+    reference: "Luke 15:24",
+    context: "The Parable of the Lost Son"
+  },
+  {
+    id: 88,
+    text: "The kingdom of God is in your midst.",
+    text_es: "He aquí el reino de Dios está entre vosotros.",
+    reference: "Luke 17:21",
+    context: "The Coming of the Kingdom of God"
+  },
+  {
+    id: 89,
+    text: "Zacchaeus, come down immediately. I must stay at your house today.",
+    text_es: "Zaqueo, date prisa, desciende, porque hoy es necesario que pose yo en tu casa.",
+    reference: "Luke 19:5",
+    context: "Jesus and Zacchaeus"
+  },
+  {
+    id: 90,
+    text: "Father, forgive them, for they do not know what they are doing.",
+    text_es: "Padre, perdónalos, porque no saben lo que hacen.",
+    reference: "Luke 23:34",
+    context: "The Crucifixion"
+  },
+  {
+    id: 91,
+    text: "Truly I tell you, today you will be with me in paradise.",
+    text_es: "De cierto te digo que hoy estarás conmigo en el paraíso.",
+    reference: "Luke 23:43",
+    context: "The Crucifixion"
+  },
+  {
+    id: 92,
+    text: "Father, into your hands I commit my spirit.",
+    text_es: "Padre, en tus manos encomiendo mi espíritu.",
+    reference: "Luke 23:46",
+    context: "The Death of Jesus"
+  },
+
+  // --- JOHN ---
+  {
+    id: 93,
+    text: "Very truly I tell you, no one can see the kingdom of God unless they are born again.",
+    text_es: "De cierto, de cierto te digo, que el que no naciere de nuevo, no puede ver el reino de Dios.",
+    reference: "John 3:3",
+    context: "Jesus Teaches Nicodemus"
+  },
+  {
+    id: 94,
+    text: "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+    text_es: "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.",
+    reference: "John 3:16",
+    context: "Jesus Teaches Nicodemus"
+  },
+  {
+    id: 95,
+    text: "Everyone who drinks this water will be thirsty again, but whoever drinks the water I give them will never thirst.",
+    text_es: "Cualquiera que bebiere de esta agua, volverá a tener sed; mas el que bebiere del agua que yo le daré, no tendrá sed jamás.",
+    reference: "John 4:13-14",
+    context: "Jesus Talks With a Samaritan Woman"
+  },
+  {
+    id: 96,
+    text: "My food is to do the will of him who sent me and to finish his work.",
+    text_es: "Mi comida es que haga la voluntad del que me envió, y que acabe su obra.",
+    reference: "John 4:34",
+    context: "Disciples Rejoin Jesus"
+  },
+  {
+    id: 97,
+    text: "I am the bread of life.",
+    text_es: "Yo soy el pan de vida.",
+    reference: "John 6:35",
+    context: "Bread of Life"
+  },
+  {
+    id: 98,
+    text: "Let any one of you who is without sin be the first to throw a stone at her.",
+    text_es: "El que de vosotros esté sin pecado sea el primero en arrojar la piedra contra ella.",
+    reference: "John 8:7",
+    context: "The Woman Caught in Adultery"
+  },
+  {
+    id: 99,
+    text: "I am the light of the world. Whoever follows me will never walk in darkness, but will have the light of life.",
+    text_es: "Yo soy la luz del mundo; el que me sigue, no andará en tinieblas, sino que tendrá la luz de la vida.",
+    reference: "John 8:12",
+    context: "Dispute Over Jesus' Testimony"
+  },
+  {
+    id: 100,
+    text: "If you hold to my teaching, you are really my disciples. Then you will know the truth, and the truth will set you free.",
+    text_es: "Si vosotros permaneciereis en mi palabra, seréis verdaderamente mis discípulos; y conoceréis la verdad, y la verdad os hará libres.",
+    reference: "John 8:31-32",
+    context: "Dispute Over Whose Children Jesus' Opponents Are"
+  },
+  {
+    id: 101,
+    text: "Very truly I tell you, before Abraham was born, I am!",
+    text_es: "De cierto, de cierto os digo: Antes que Abraham fuese, yo soy.",
+    reference: "John 8:58",
+    context: "The Claims of Jesus About Himself"
+  },
+  {
+    id: 102,
+    text: "I am the gate; whoever enters through me will be saved.",
+    text_es: "Yo soy la puerta; el que por mí entrare, será salvo.",
+    reference: "John 10:9",
+    context: "The Good Shepherd and His Sheep"
+  },
+  {
+    id: 103,
+    text: "I am the good shepherd. The good shepherd lays down his life for the sheep.",
+    text_es: "Yo soy el buen pastor; el buen pastor su vida da por las ovejas.",
+    reference: "John 10:11",
+    context: "The Good Shepherd and His Sheep"
+  },
+  {
+    id: 104,
+    text: "I am the resurrection and the life. The one who believes in me will live, even though they die.",
+    text_es: "Yo soy la resurrección y la vida; el que cree en mí, aunque esté muerto, vivirá.",
+    reference: "John 11:25",
+    context: "Jesus Comforts the Sisters of Lazarus"
+  },
+  {
+    id: 105,
+    text: "A new command I give you: Love one another. As I have loved you, so you must love one another.",
+    text_es: "Un mandamiento nuevo os doy: Que os améis unos a otros; como yo os he amado, que también os améis unos a otros.",
+    reference: "John 13:34",
+    context: "Jesus Predicts Peter's Denial"
+  },
+  {
+    id: 106,
+    text: "Do not let your hearts be troubled. You believe in God; believe also in me.",
+    text_es: "No se turbe vuestro corazón; creéis en Dios, creed también en mí.",
+    reference: "John 14:1",
+    context: "Jesus Comforts His Disciples"
+  },
+  {
+    id: 107,
+    text: "I am the way and the truth and the life. No one comes to the Father except through me.",
+    text_es: "Yo soy el camino, y la verdad, y la vida; nadie viene al Padre, sino por mí.",
+    reference: "John 14:6",
+    context: "Jesus Comforts His Disciples"
+  },
+  {
+    id: 108,
+    text: "Peace I leave with you; my peace I give you. I do not give to you as the world gives.",
+    text_es: "La paz os dejo, mi paz os doy; yo no os la doy como el mundo la da.",
+    reference: "John 14:27",
+    context: "Jesus Promises the Holy Spirit"
+  },
+  {
+    id: 109,
+    text: "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit.",
+    text_es: "Yo soy la vid, vosotros los pámpanos; el que permanece en mí, y yo en él, éste lleva mucho fruto.",
+    reference: "John 15:5",
+    context: "The Vine and the Branches"
+  },
+  {
+    id: 110,
+    text: "Greater love has no one than this: to lay down one’s life for one’s friends.",
+    text_es: "Nadie tiene mayor amor que este, que uno ponga su vida por sus amigos.",
+    reference: "John 15:13",
+    context: "The Vine and the Branches"
+  },
+  {
+    id: 111,
+    text: "In this world you will have trouble. But take heart! I have overcome the world.",
+    text_es: "En el mundo tendréis aflicción; pero confiad, yo he vencido al mundo.",
+    reference: "John 16:33",
+    context: "The Disciples' Grief Will Turn to Joy"
+  },
+  {
+    id: 112,
+    text: "My kingdom is not of this world.",
+    text_es: "Mi reino no es de este mundo.",
+    reference: "John 18:36",
+    context: "Jesus Before Pilate"
+  },
+  {
+    id: 113,
+    text: "It is finished.",
+    text_es: "Consumado es.",
+    reference: "John 19:30",
+    context: "The Death of Jesus"
+  },
+  {
+    id: 114,
+    text: "Blessed are those who have not seen and yet have believed.",
+    text_es: "Bienaventurados los que no vieron, y creyeron.",
+    reference: "John 20:29",
+    context: "Jesus Appears to Thomas"
   }
 ];
