@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { JESUS_SAYINGS } from './data/sayings';
 import { Saying } from './types';
 
@@ -254,6 +255,7 @@ const App: React.FC = () => {
            &copy; {new Date().getFullYear()} Red Letter Daily
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 };
